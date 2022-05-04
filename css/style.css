@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+body{
+    border: 1px solid red;
+  width: 1440px;
+  height: 5377px;
+  margin: 0 auto;
+  font-family: sans-serif; 
+  position: relative;
+}
+    
+
+header{
+    height: 117px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.heder2{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;   
+}
+.heder2 a{
+    text-decoration: none;
+}
+.heder4{
+    height:43px;
+    width: 126px;
+    background-color:#FF5D24 ;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+ .heder2  a{
+    position: relative;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.heder2 a::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #000;
+    bottom: -5px;
+    transition: 0.4s transform;
+    transform:scaleX(0) ;
+}
+header a:hover::before {
+    transform:scaleX(1) ;
+    transform-origin:(left);
+}
+.section1{
+    position: relative;
+}
+.fonte1{
+   display: flex; 
+   justify-content: space-around;
+}
+.fontyu2{
+    height: 139px;
+    width: 563px;
+    font-size: 50px;
+}
+.fontyu2 span{
+    color:#FF5D24 ;
+    margin-left: 15px;
+}
+.fonyuter3{
+    height: 53px;
+    width: 420px;
+    align-self: center;
+}
+.rasm{
+    padding-left: 115px;
+}
+.rasm1{ 
+    width:314px;
+    height: 360px;
+    position: absolute;
+    right: 86px;
+    top: 485px; 
+    background-color:#fff;
+    border-radius: 10px;
+}
+.rasm2 {
+    border-radius: 20px;
+    margin: 20px 30px;
+}
+.toppe{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color:#56B9B4;
+    border-radius: 50%;
+    bottom: 85px;
+    left: 110px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.rasmm3{
+    text-align: center;
+    color:#FF5D24  ;
+    font-size: 21px;
+}
+.rasssm2{
+    position: absolute;
+    height: 360px;
+    width: 314px;
+    border-radius: 10px;
+    top: 740px;
+    left: 230px;
+    background-color: #fff;
+}
+.aykon2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color:#F4643F;
+    border-radius: 50%;
+    bottom: 85px;
+    left: 110px;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rasmim3{
+    position: absolute;
+    left: 197px;
+    top: 1008px;
+}
+.rasm5{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.yozma{
+    text-align: center;
+    color:#FF5D24;
+    margin-top: 40px;
+}
+.vatyer0{
+    position: absolute;
+    right: 140px;
+    top: 850px;
+}
+
+.pastion{
+   display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    width: 120%;
+}
+.pasttan {
+    height: 110px;
+    width: 100px; 
+    margin: 30px 30px;  
+}
+.pastt1{
+    font-size: 50px;
+    color: #000;
+}
+.pasttan a{
+  margin: 10px; 
+  text-decoration: none;  
+}
+.postan2{
+   margin: 30px 30px; 
+   height: 110px;
+    width: 100px; 
+}
+.pastav{
+    font-size: 50px;
+    color: #F4643F;
+}
+.postan2 a{
+    text-decoration: none; 
+}
+.postan12{
+    height: 110px;
+    width: 100px;
+    margin: 30px 30px;
+}
+.pasta12{
+    font-size: 50px;
+}
+.postan12 a{
+    text-decoration: none;
+}
+
+.kolim{
+    padding-top: 100px;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+}
+.rasmlari1{
+    width: 50%;
+    text-align: center;
+}
+.kolumen2{
+    align-self: center;
+}
+.kolimme{
+    height: 39px;
+    width: 118px;
+    color: #F4643F;
+    cursor: grab;
+}
+.kolumty2{
+    height:109px;
+    width: 530px;
+    font-size:50px;
+    margin-top: 30px;
+}
+.kolumty2 a{
+    text-decoration: none;
+    color: #000;
+}
+.paragrif{
+   height: 84px;
+   width: 420px; 
+}
+.learm{
+   height: 48px;
+   width: 119px;
+   background-color: #F4643F; 
+   color: #fff;
+   cursor: pointer;
+   border: none;
+}
+.lorim13{
+   height: 666px;
+   width: 1229px; 
+   margin: 130px 105px;
+
+}
+.divla{
+    display: flex;
+    justify-content: space-between;
+}
+.bola1{
+    height: 39px;
+    width: 133px;
+    color: #F4643F;
+    border: none;
+    cursor: pointer;
+}
+.bola2{
+    height:119px;
+    width: 515px;
+    font-size: 49px;
+}
+.divla2{
+    align-self: center;
+    width: 25%;
+}
+.divla2 span{
+    margin: 0 20px;
+}
+.kattasi{
+    display: flex;
+    justify-content: space-around;
+}
+.romm1{
+   height: 84px;
+   width: 84px;
+   background-color:#F4643F ; 
+   border-radius: 20px;
+   cursor: pointer;
+}
+.kattar1{
+    font-size: 25px;
+}
+.kota2{
+   height: 84px;
+   width: 300px; 
+}
+.inone{
+   margin-left: 20px; 
+}
+.iconme2{
+    height: 84px;
+    width: 84px;
+    background-color: #F0C24A;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.kalla3{
+    height: 84px;
+    width: 300px; 
+}
+.conse2{
+    margin-left: 20px;
+}
+.katt5a{
+    height: 84px;
+    width: 84px;
+    background-color: #56B9B4;
+    border-radius: 20px;
+    cursor: pointer; 
+}
+.katttao6{
+    height: 84px;
+    width: 300px;  
+}
+.kottal7{
+    margin-left: 20px; 
+}
+.boshliq{
+    width: 1267px;
+    height: 601px;
+    display: flex;
+    margin: 0 90px;
+    justify-content: space-around;    
+}
+.bolash1{
+    width: 50%;
+    align-self: center;
+
+}
+.battin{
+    height: 39px;
+    width: 118px;
+    color: #F4643F;
+    cursor: pointer;
+    border: none;
+}
+.sarloha1{
+    height: 109px;
+    width: 530px;
+    padding-top: 40px;
+}
+.sarloha1 a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.sarloha2{
+    height: 84px;
+    width: 425px;
+}
+.bulon{
+    height: 48px;
+    width: 149px;
+    background-color: #F4643F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.rasmlar{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    cursor: grab;
+}
+.tuplam{
+    height: 741px;
+    width: 1205px;
+    margin: 100px 106px;
+}
+.tuplami1{
+    width: 1205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.tuplami2{
+    height:22px;
+    width: 100px;
+    color: #F4643F;
+    border: none;
+}
+.tuplau3{
+    font-size: 40px;
+    width: 461px;
+    margin: 50px 0;
+}
+.tuplau3 a{
+    text-decoration: none;
+    color: #000;
+}
+.kattabo{
+    display: flex;
+    justify-content: space-between;
+}
+.loola1{
+    font-size: 20px;
+    color: #FF5D24;
+    cursor: pointer;
+}
+.loolo2{
+    height:49px;
+    width: 260px;
+    padding-bottom: 20px;
+}
+.loolo2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;    
+}
+.llola3{
+    padding-bottom: 26px;
+}
+.roott{
+    margin-left: 20px;
+}
+.loloee4{
+    height: 32px;
+    width: 90px;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+ 
+
+
+.loola111{
+    font-size: 20px;
+    color: #FF5D24;
+    cursor: pointer;
+}
+.loolo222{
+    height:49px;
+    width: 260px;
+    padding-bottom: 20px;
+}
+.loolo222 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;    
+}
+.llola333{
+    padding-bottom: 26px;
+}
+.roott12{
+    margin-left: 20px;
+}
+.loloee444{
+    height: 32px;
+    width: 90px;
+    background-color: #FF5D24;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+.loola11{
+    font-size: 20px;
+    color: #FF5D24;
+    cursor: pointer;
+}
+.loolo22{
+    height:49px;
+    width: 291px;
+    padding-bottom: 20px;
+}
+.loolo22 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;    
+}
+.llola33{
+    padding-bottom: 26px;
+}
+.roott123{
+    margin-left: 20px;
+}
+.loloee44{
+    height: 32px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+.orqafont{
+    border: 1px solid red;
+    height: 348px;
+    width: 1205px;
+    margin: 150px 105px;
+   background-image: url("/css/Mask\ Group.jpg");   
+}
+.rasmorti{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.romt1{
+    color: #fff;
+    font-size: 40px;
+}
+ .rompi2{
+    color: #fff; 
+    width: 491px;
+ }
+ .rasmha{
+     height:104px;
+     width: 104px;
+     background-color: #F4643F;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+

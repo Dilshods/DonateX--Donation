@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 body{
     border: 1px solid red;
-  width: 1440px;
-  height: 5377px;
-  margin: 0 auto;
-  font-family: sans-serif; 
-  position: relative;
+    width: 100%;
+    height: 5377px;
+    margin: auto;
+    font-family: sans-serif; 
+    position: relative;
 }
     
 
@@ -485,7 +485,6 @@ header a:hover::before {
     border: none;
 }
 .orqafont{
-    border: 1px solid red;
     height: 348px;
     width: 1205px;
     margin: 150px 105px;
